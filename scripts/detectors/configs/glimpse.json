@@ -1,0 +1,12 @@
+{
+    "api_base": "https://api.ephone.ai/v1",
+    "api_key": "xxxx",
+    "api_version": "2024-08-01-preview",
+    "scoring_model_name": "davinci-002",
+    "max_token_observed": 512,
+    "estimator": "geometric",
+    "prompt": "prompt3",
+    "rank_size": 1000,
+    "top_k": 5,
+    "cache_dir": "./cache"
+}

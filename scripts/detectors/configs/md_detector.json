@@ -1,0 +1,11 @@
+{
+    "api_base": "http://172.16.78.10:35703/v1",
+    "api_key": "na",
+    "transform_model_name": "Qwen3-4B-Nothinking",
+    "transform_workers": 2, 
+    "transform_max_tokens": 200, 
+    "transform_top_p": 0.9, 
+    "detector_name": "fast_detect",
+    "classifier": "classifiers/md_detector.classifier.humanize-16k.pkl",
+    "cache_dir": "../cache/"
+}

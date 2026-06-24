@@ -1,0 +1,7 @@
+{
+    "reference_model_name": "ImBD-inference",
+    "scoring_model_name": "ImBD-inference",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "../cache/"
+}

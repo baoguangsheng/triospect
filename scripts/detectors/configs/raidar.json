@@ -1,0 +1,8 @@
+{
+    "api_base": "http://172.16.78.10:35703/v1",
+    "api_key": "na",
+    "rewriting_model_name": "Qwen3-4B-Nothinking",
+    "rewriting_workers": 7,
+    "classifier": "classifiers/raidar.classifier.raid.pkl",
+    "cache_dir": "../cache"
+}

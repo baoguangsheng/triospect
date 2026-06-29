@@ -62,11 +62,7 @@ class ModelProxy:
     def prepare_client0(self):
         from openai import OpenAI
         clients = {
-            'llama-3.3-70b-instruct': ('Llama-3.3-70B-Instruct', OpenAI(base_url='http://xxxx/v1', api_key='na')),
-            'qwen2.5-72b-instruct': ('Qwen2.5-72B-Instruct', OpenAI(base_url='http://xxxx/v1', api_key='na')),
-            'DeepSeek-R1-Distill-Qwen-7B': ('DeepSeek-R1-Distill-Qwen-7B',  OpenAI(base_url='http://172.16.78.10:38918/v1', api_key='na')),
-            'DeepSeek-R1-Distill-Llama-8B': ('DeepSeek-R1-Distill-Llama-8B', OpenAI(base_url='http://172.16.78.10:32074/v1', api_key='na')),
-            'Qwen3-8B-AWQ': ('Qwen3-8B-AWQ', OpenAI(base_url='http://172.16.78.10:36427/v1', api_key='na')),
+            # we turn off the thinking mode in the model config and then serve with vLLM.
             'Qwen3-4B': ('Qwen3-4B-Nothinking', OpenAI(base_url='http://172.16.78.10:38070/v1', api_key='na')),
         }
         return clients
